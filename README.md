@@ -30,3 +30,5 @@ $ java -jar target/composer-0.1.0-SNAPSHOT-standalone.jar
 ### License ###
 
 Copyright © 2013 Dylan Gleason
+
+Distributed under the Eclipse Public License, the same as Clojure.
