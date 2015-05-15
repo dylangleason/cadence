@@ -7,7 +7,6 @@ cadence is an algorithmic music composer written in Clojure. cadence takes an in
 In order to build cadence, you must install (at a minimum) Java SDK 7. To verify your version of Java:
 
 ```
-#!bash
 $ java -version
 ```
 
@@ -18,14 +17,12 @@ Once Java is installed, the easiest way to build the project and get going is wi
 To run cadence from the command line, do the following:
 
 ```
-#!bash
 $ cd ~/path/to/cadence && lein run -m composer.core
 ```
 
 Alternatively, you can package cadence as a JAR file and execute it that way:
 
 ```
-#!bash
 $ cd ~/path/to/cadence && lein uberjar
 $ java -jar target/composer-0.1.0-SNAPSHOT-standalone.jar
 ```
